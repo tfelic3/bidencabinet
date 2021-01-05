@@ -2,7 +2,7 @@
   "name": "bidencabinet",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://tfelic3.github.io/bidencabinet"
+  "homepage" : "https://tfelic3.github.io/bidencabinet",
   
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
