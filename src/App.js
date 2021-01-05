@@ -34,7 +34,7 @@ class App extends Component {
 				name: 'Antony Blinken',
 				description:
 					'The Secretary of State serves as the President’s top foreign policy adviser, and oversees 30,000 employees and a budget of approximately $35 billion.',
-				imgPath: '/img/blinken4x4.png',
+				imgPath: 'img/blinken4x4.png',
 				id: 3,
 			},
 
