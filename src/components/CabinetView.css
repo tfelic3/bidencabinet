@@ -24,9 +24,9 @@ margin-top: 2em;
  
   @media(max-width: 800px){
    .view{
-     width: 300px;
+     width: 200px;
      padding-top: 1.5em;
    }
-   background-image: hidden;
+
   }
   

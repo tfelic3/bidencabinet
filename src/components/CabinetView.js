@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import CabinetCard from './CabinetCard';
 import './CabinetView.css';
+import CarouselView from './CarouselView';
+
 
 export class CabinetView extends Component {
 	
@@ -38,6 +40,10 @@ export class CabinetView extends Component {
 					<Button onClick={this.props.nextCandidate} variant="outline-dark">
 						Next
 					</Button>
+
+					<div>
+					<CarouselView  />
+					</div>
 
 					
 					

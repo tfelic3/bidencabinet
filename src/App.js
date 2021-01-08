@@ -4,7 +4,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import CabinetView from './components/CabinetView';
 import HeaderView from './components/HeaderView';
 import FooterView from './components/FooterView';
-import BackgroundView from './components/BackgroundView';
+import CarouselView from './components/CarouselView';
 
 
 
@@ -95,19 +95,19 @@ constructor(props){
 
 			{
 				title: 'Secretary of Commerce',
-				name: '',
+				name: 'Gina Raimondo',
 				description:
 					'The Department of Commerce is the government agency tasked with improving living standards for all Americans by promoting economic development and technological innovation.',
-				imgPath: 'img/silhoette.png',
+				imgPath: 'img/gina4x4.png',
 				id: 8,
 			},
 
 			{
 				title: 'Secretary of Labor',
-				name: ' ',
+				name: 'Mary Walsh',
 				description:
 					'The Department of Labor oversees federal programs for ensuring a strong American workforce. ',
-				imgPath: 'img/silhoette.png',
+				imgPath: 'img/marty4x4.png',
 				id: 9,
 			},
 
@@ -251,7 +251,7 @@ previousCandidate = () => {
 						/>
 
 				
-					
+
 					</Container>
 					<Route exact path="/" render={() => <FooterView />} />
 				
