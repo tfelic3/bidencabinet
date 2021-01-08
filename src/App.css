@@ -1,26 +1,104 @@
-
-
-h1{
-  margin-bottom: 3em;
+.view{
+  background-color: white;
 }
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.boss{
+  text-align: center;
+}
+
+.container{ 
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+background-attachment: fixed;
+background-position: center;
+display: flex;
+background-size: 30em;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+align-content:center;
+
+}
+
+.card-body{
+ background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+
+
+
 
 div{
   margin: auto;
   width: 100%;
 }
+
+.btn-outline-secondary {
+  align-self:  flex-end;   
+
+
+}
+
 .box p {
   text-align: left;
 }
-
-.grid {
-  min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+.head{
+ padding:1em;
+ color: rgb(113, 100, 7);
+font-family: Merriweather; 
 }
 
-.grid > div {
-  flex-basis: calc(20% - 40px);
+h1{
+  font-size: 7em;
 }
 
-p{float: left;}
+footer {
+  text-align: center;
+  padding: -10px;
+
+}
+
+@media(max-width: 800px){
+  .container{
+    flex-direction: column;
+    background-color: black;
+    background-position: -9999px -9999px
+
+  } 
+
+  .head{
+ 
+    font-size: 2em;
+    font-family: Merriweather; 
+text-align: center;
+  }
+
+  .card{
+    width: 400px;
+  }
+}

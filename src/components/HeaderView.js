@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export class HeaderView extends Component {
     render() {
         return (
-            <div>
-                <h1>President-elect Joe Biden's Cabinet</h1>
+            <div className="head">
+                <h1>Biden Cabinet Nominees</h1>
             </div>
         )
     }

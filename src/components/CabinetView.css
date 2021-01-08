@@ -4,7 +4,8 @@
     text-align: left;
 }
 .view {
-    
+    background-color: white;
+   
 margin-top: 2em;
     text-align: center;
     padding: 1.5em;
@@ -21,4 +22,11 @@ margin-top: 2em;
   }
 
  
-  p{float: left;}
+  @media(max-width: 800px){
+   .view{
+     width: 300px;
+     padding-top: 1.5em;
+   }
+   background-image: hidden;
+  }
+  
