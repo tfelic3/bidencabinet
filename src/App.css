@@ -1,6 +1,11 @@
 .view{
   background-color: white;
 }
+
+image{
+  max-width: 100%;
+  height: auto;
+}
 /* unvisited link */
 a:link {
   color: red;
@@ -69,7 +74,7 @@ div{
 }
 .head{
  padding:1em;
- color: rgb(113, 100, 7);
+ color: rgb(127, 140, 141);
 font-family: Merriweather; 
 }
 
@@ -90,9 +95,16 @@ footer {
     background-position: -9999px -9999px
 
   } 
+image{
+  max-width: 100%;
+  height: auto;
+}
 
+h1{
+  font-size:3em;
+}
   .head{
- 
+
     font-size: 2em;
     font-family: Merriweather; 
 text-align: center;
@@ -100,5 +112,6 @@ text-align: center;
 
   .card{
     width: 400px;
+  
   }
 }

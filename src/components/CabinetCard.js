@@ -33,6 +33,11 @@ export class CabinetCard extends Component {
  <Link to={`/cabinet/${this.props.pick.title}`}>
 					<Button variant="outline-secondary">More Information</Button>
                     </Link>
+					
+			
+
+				
+					
 				</Card.Body>
 			
 			</Card>
