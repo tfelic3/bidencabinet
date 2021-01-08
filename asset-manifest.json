@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bidencabinet/static/css/main.939d20fb.chunk.css",
-    "main.js": "/bidencabinet/static/js/main.27aa9e2b.chunk.js",
-    "main.js.map": "/bidencabinet/static/js/main.27aa9e2b.chunk.js.map",
+    "main.css": "/bidencabinet/static/css/main.09cad4c6.chunk.css",
+    "main.js": "/bidencabinet/static/js/main.869ebba0.chunk.js",
+    "main.js.map": "/bidencabinet/static/js/main.869ebba0.chunk.js.map",
     "runtime-main.js": "/bidencabinet/static/js/runtime-main.a03066c7.js",
     "runtime-main.js.map": "/bidencabinet/static/js/runtime-main.a03066c7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/bidencabinet/static/css/2.20aa2d7b.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.183f3a20.chunk.js.map": "/bidencabinet/static/js/2.183f3a20.chunk.js.map",
     "index.html": "/bidencabinet/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/bidencabinet/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.939d20fb.chunk.css.map": "/bidencabinet/static/css/main.939d20fb.chunk.css.map",
+    "static/css/main.09cad4c6.chunk.css.map": "/bidencabinet/static/css/main.09cad4c6.chunk.css.map",
     "static/js/2.183f3a20.chunk.js.LICENSE.txt": "/bidencabinet/static/js/2.183f3a20.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a03066c7.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.183f3a20.chunk.js",
-    "static/css/main.939d20fb.chunk.css",
-    "static/js/main.27aa9e2b.chunk.js"
+    "static/css/main.09cad4c6.chunk.css",
+    "static/js/main.869ebba0.chunk.js"
   ]
 }
