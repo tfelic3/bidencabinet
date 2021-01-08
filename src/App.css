@@ -74,12 +74,12 @@ div{
 }
 .head{
  padding:1em;
- color: rgb(127, 140, 141);
+ color: rgb(212, 172, 13);
 font-family: Merriweather; 
 }
 
 h1{
-  font-size: 7em;
+  font-size: 4em;
 }
 
 footer {
@@ -88,7 +88,7 @@ footer {
 
 }
 
-@media(max-width: 800px){
+@media(max-width: 600px){
   .container{
     flex-direction: column;
     background-color: black;
@@ -96,13 +96,10 @@ footer {
 
   } 
 image{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
-h1{
-  font-size:3em;
-}
   .head{
 
     font-size: 2em;
