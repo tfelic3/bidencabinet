@@ -74,12 +74,12 @@ div{
 }
 .head{
  padding:1em;
- color: rgb(212, 172, 13);
+ color: rgb(187, 152, 9);
 font-family: Merriweather; 
 }
 
 h1{
-  font-size: 4em;
+  font-size: 2em;
 }
 
 footer {
@@ -102,13 +102,14 @@ image{
 
   .head{
 
-    font-size: 2em;
     font-family: Merriweather; 
 text-align: center;
   }
 
   .card{
-    width: 400px;
+    width: 150px;
   
   }
+
+
 }
