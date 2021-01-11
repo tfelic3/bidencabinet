@@ -1,3 +1,13 @@
+
+.card-body{
+  background-color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;  
+ }
+
+ 
 .view{
   background-color: white;
 }
@@ -46,14 +56,6 @@ align-content:center;
 
 }
 
-.card-body{
- background-color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;  
-}
-
 
 
 
@@ -79,7 +81,7 @@ font-family: Merriweather;
 }
 
 h1{
-  font-size: 6em;
+  font-size: 4em;
 }
 
 footer {
@@ -107,11 +109,12 @@ text-align: center;
 
   .card{
     width: 400px;
-  
+   
   }
 
   .card-title{
     word-wrap: break-word;
+    font-family: Merriweather;  
   }
 
 

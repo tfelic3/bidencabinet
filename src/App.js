@@ -104,7 +104,7 @@ constructor(props){
 
 			{
 				title: 'Secretary of Labor',
-				name: 'Mary Walsh',
+				name: 'Marty Walsh',
 				description:
 					'The Department of Labor oversees federal programs for ensuring a strong American workforce. ',
 				imgPath: 'img/marty4x4.png',
@@ -204,7 +204,8 @@ previousCandidate = () => {
 			
 
 	render() {
-
+		document.title = 'Biden Cabinet Nominees'
+      
 		return (
 			<Router>
 				<Route exact path="/" render={() => <HeaderView />} />
