@@ -131,8 +131,16 @@ text-align: center;
     background-color: white;
   }
 
+  h1{
+    font-size: 2em;
+  }
+  .card{
+    width: 300px;
+   
+  }
+
   image{
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
   }
   
