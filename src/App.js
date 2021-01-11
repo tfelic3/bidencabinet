@@ -25,7 +25,7 @@ constructor(props){
 				description:
 					'The President is both the head of state and head of government of the United States of America, and Commander-in-Chief of the armed forces.',
 				imgPath: 'img/biden4x4.png',
-				nextPath: 'Vice President',			
+					
 				id: 0
 			},
 

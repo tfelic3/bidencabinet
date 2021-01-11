@@ -30,26 +30,40 @@ export class CabinetView extends Component {
 
           <p>{this.props.cabinet.description}</p>
 
+
+
+
+
+<div className = "buttongroup">
+          <Link to={`/`}>
+            <Button
+              variant="outline-dark"
+              
+            >
+              Home
+            </Button>
+          </Link>
           <Link to={`/cabinet/${previousCandidate.title}`}>
             <Button
               variant="outline-dark"
-              // onClick={this.props.previousCandidate}
+              
             >
               Previous
             </Button>
           </Link>
 
-          <br />
+
+         
+
+         
           <Link to={`/cabinet/${nextCandidate.title}`}>
             <Button
-              // onClick={this.props.nextCandidate}
+             
               variant="outline-dark"
             >
               Next
             </Button>
           </Link>
-          <div>
-            <CarouselView />
           </div>
         </React.Fragment>
       </div>

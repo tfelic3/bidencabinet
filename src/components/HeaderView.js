@@ -7,6 +7,8 @@ export class HeaderView extends Component {
                 <h1>Biden Cabinet Nominees</h1>
             </div>
         )
+
+    
     }
 }
 

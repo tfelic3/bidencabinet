@@ -18,7 +18,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: rgb(187, 152, 9);
 }
 
 /* selected link */
@@ -79,7 +79,7 @@ font-family: Merriweather;
 }
 
 h1{
-  font-size: 1em;
+  font-size: 6em;
 }
 
 footer {
@@ -88,7 +88,7 @@ footer {
 
 }
 
-@media(max-width: 600px){
+@media(max-width: 950px){
   .container{
     flex-direction: column;
     background-color: black;
@@ -106,7 +106,7 @@ text-align: center;
   }
 
   .card{
-    width: 150px;
+    width: 400px;
   
   }
 
@@ -115,4 +115,22 @@ text-align: center;
   }
 
 
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .container {
+    background-color: white;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .container {
+    background-color: white;
+  }
+
+  image{
+    max-width: 50%;
+    height: auto;
+  }
+  
 }
