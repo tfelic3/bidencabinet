@@ -70,7 +70,7 @@ constructor(props){
 
 			{
 				title: 'Attorney General',
-				name: 'Judge Merrick Garland',
+				name: 'Merrick Garland',
 				description:
 					'The attorney general oversees the Department of Justice (DOJ). The attorney general represents the country in legal matters and enforces the country’s laws.',
 				previousHolder: 'William Barr',
