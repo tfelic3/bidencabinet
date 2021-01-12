@@ -22,18 +22,17 @@ constructor(props){
 			{
 				title: 'President',
 				name: 'Joe Biden',
-				description:
-					'The President is both the head of state and head of government of the United States of America, and Commander-in-Chief of the armed forces.',
-				imgPath: 'img/biden4x4.png',
-					
+				description:'The president heads the US government. He is also commander-in-chief of the armed forces.',
+				previousHolder: 'Donald Trump',
+				imgPath: 'img/biden4x4.png',					
 				id: 0
 			},
 
 			{
 				title: 'Vice President',
 				name: 'Kamala Harris',
-				description:
-					'The primary responsibility of the Vice President of the United States is to be ready at a moment’s notice to assume the Presidency if the President is unable to perform his duties.',
+				description: 'The vice president is second in command. The vice president assumes the role of president if the president is unable to serve.',
+				previousHolder: 'Mike Pence',
 				imgPath: 'img/harris4x4.png',
 				id: 1,
 			},
@@ -42,8 +41,9 @@ constructor(props){
 				title: 'Secretary of State',
 				name: 'Antony Blinken',
 				description:
-					'The Secretary of State serves as the President’s top foreign policy adviser, and oversees 30,000 employees and a budget of approximately $35 billion.',
-				imgPath: 'img/blinken4x4.png',
+					'The secretary of state serves as the president’s top foreign policy adviser. Among duties, the secretary conducts negotiations related to foreign affairs and issues passports to American citizens.',
+					previousHolder: 'Michael Pompeo',
+					imgPath: 'img/blinken4x4.png',
 				id: 2,
 			},
 
@@ -51,8 +51,9 @@ constructor(props){
 				title: 'Secretary of the Treasury',
 				name: 'Janet Yellen',
 				description:
-					'The Department of the Treasury is responsible for promoting economic prosperity and ensuring the soundness and security of the U.S. and international financial systems.',
-				imgPath: 'img/yellen4x4.png',
+					'The secretary of treasury manages the country’s economic and fiscal policy. Duties of the department include enforcing tax and tariff law and producing currency.',
+				previousHolder: 'Steven Mnuchin',
+					imgPath: 'img/yellen4x4.png',
 				id: 3
 				,
 			},
@@ -61,8 +62,9 @@ constructor(props){
 				title: 'Secretary of Defense',
 				name: 'Gen. Lloyd Austin',
 				description:
-					'The mission of the Department of Defense (DOD) is to provide the military forces needed to deter war and to protect the security of our country. The department’s headquarters is at the Pentagon.',
-				imgPath: 'img/austin4x4.png',
+					'The secretary of defense leads the Department of Defense which creates policy and oversees the US military. The department’s headquarters is at the Pentagon.',
+					previousHolder: 'Christopher C. Miller',
+					imgPath: 'img/austin4x4.png',
 				id: 4,
 			},
 
@@ -70,8 +72,9 @@ constructor(props){
 				title: 'Attorney General',
 				name: 'Judge Merrick Garland',
 				description:
-					'The mission of the Department of Justice (DOJ) is to enforce the law and defend the interests of the United States according to the law',
-				imgPath: 'img/garland4x4.png',
+					'The attorney general oversees the Department of Justice (DOJ). The attorney general represents the country in legal matters and enforces the country’s laws.',
+				previousHolder: 'William Barr',
+					imgPath: 'img/garland4x4.png',
 				id: 5,
 			},
 
@@ -79,8 +82,9 @@ constructor(props){
 				title: 'Secretary of the Interior',
 				name: 'Deb Haaland',
 				description:
-					'The Department of the Interior (DOI) is the nation’s principal conservation agency. Its mission is to protect America’s natural resources, offer recreation opportunities, conduct scientific research, conserve and protect fish and wildlife, and honor our trust responsibilities to American Indians, Alaskan Natives, and our responsibilities to island communities.',
-				imgPath: 'img/haaland4x4.png',
+					'This secretary leads the department which protects the country’s natural resources and provides federal assistance to US territories and Native American and Alaskan tribes.',
+				previousHolder: 'David Bernhardt',
+					imgPath: 'img/haaland4x4.png',
 				id: 6,
 			},
 
@@ -88,8 +92,9 @@ constructor(props){
 				title: 'Secretary of Agriculture',
 				name: 'Tom Vilsack',
 				description:
-					'The U.S. Department of Agriculture (USDA) develops and executes policy on farming, agriculture, and food.',
-				imgPath: 'img/vilsack4x4.png',
+					'The secretary leads the department responsible for creating and implementing the country’s agriculture, farming and food policy.',
+				previousHolder: 'Sonny Perdue',
+					imgPath: 'img/vilsack4x4.png',
 				id: 7,
 			},
 
@@ -97,8 +102,9 @@ constructor(props){
 				title: 'Secretary of Commerce',
 				name: 'Gina Raimondo',
 				description:
-					'The Department of Commerce is the government agency tasked with improving living standards for all Americans by promoting economic development and technological innovation.',
-				imgPath: 'img/gina4x4.png',
+					'This secretary leads the department which fosters economic development and technological innovation. The department helps the US economy grow.',
+					previousHolder:'Wilbur Ross',
+					imgPath: 'img/gina4x4.png',
 				id: 8,
 			},
 
@@ -106,7 +112,8 @@ constructor(props){
 				title: 'Secretary of Labor',
 				name: 'Marty Walsh',
 				description:
-					'The Department of Labor oversees federal programs for ensuring a strong American workforce. ',
+					'The secretary of labor leads the department which oversees federal programs protecting US workers, job seekers and retirees.',
+					previousHolder: 'Eugene Scalia',
 				imgPath: 'img/marty4x4.png',
 				id: 9,
 			},
@@ -115,8 +122,9 @@ constructor(props){
 				title: 'Secretary of Health & Human Services',
 				name: 'Xavier Becerra',
 				description:
-					'The Department of Health and Human Services (HHS) is the United States government’s principal agency for protecting the health of all Americans and providing essential human services, especially for those who are least able to help themselves. ',
-				imgPath: 'img/becerra4x4.png',
+					'This secretary runs the department that protects the health of Americans by providing efficient human services. The department also oversees the National Institutes of Health, the Food and Drug Administration, and the Centers for Disease Control.',
+				previousHolder: 'Alex Azar',
+					imgPath: 'img/becerra4x4.png',
 				id: 10,
 			},
 
@@ -124,8 +132,9 @@ constructor(props){
 				title: 'Secretary of Housing & Urban Development',
 				name: 'Marcia Fudge',
 				description:
-					'The Department of Housing and Urban Development (HUD) is the federal agency responsible for national policies and programs that address America’s housing needs, that improve and develop the nation’s communities, and that enforce fair housing laws. ',
-				imgPath: 'img/fudge4x4.png',
+					'This secretary oversees the department which creates policies that address the country’s housing needs and enforces fair housing laws.  ',
+				previousHolder: 'Ben Carson',
+					imgPath: 'img/fudge4x4.png',
 				id: 11,
 			},
 
@@ -133,8 +142,9 @@ constructor(props){
 				title: 'Secretary of Transportation',
 				name: 'Pete Buttigieg',
 				description:
-					'The mission of the Department of Transportation (DOT) is to ensure a fast, safe, efficient, accessible and convenient transportation system that meets our vital national interests and enhances the quality of life of the American people.',
-				imgPath: 'img/buttigieg4x4.png',
+					'The secretary of transportation supervises the department which plans and implements the nation’s transportation system. The department also sets safety regulations for all major modes of transportation.',
+				previousHolder: 'Elaine Chao',
+					imgPath: 'img/buttigieg4x4.png',
 				id: 12,
 			},
 
@@ -142,8 +152,9 @@ constructor(props){
 				title: 'Secretary of Energy',
 				name: 'Jennifer Granholm',
 				description:
-					'The mission of the Department of Energy (DOE) is to advance the national, economic, and energy security of the United States.',
-				imgPath: 'img/granholm4x4.png',
+					'The secretary oversees the department which manages the country’s nuclear infrastructure and supervises its energy policy.',
+			previousHolder: 'Dan Brouillette',
+					imgPath: 'img/granholm4x4.png',
 				id: 13,
 			},
 
@@ -151,16 +162,18 @@ constructor(props){
 				title: 'Secretary of Education',
 				name: 'Miguel Cardona',
 				description:
-					'The mission of the Department of Education is to promote student achievement and preparation for competition in a global economy by fostering educational excellence and ensuring equal access to educational opportunity.',
-				imgPath: 'img/cardona4x4.png',
+					'This secretary administers the department which supports the education of children and adults in schools and colleges throughout the country.',
+	previousHolder: 'Elisabeth Prince DeVos',
+					imgPath: 'img/cardona4x4.png',
 				id: 14,
 			},
 			{
 				title: 'Secretary of Homeland Security',
 				name: 'Alejandro Mayorkas',
 				description:
-					'The missions of the Department of Homeland Security are to prevent and disrupt terrorist attacks; protect the American people, our critical infrastructure, and key resources; and respond to and recover from incidents that do occur. ',
-				imgPath: 'img/mayorkas4x4.png',
+					'The secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
+				previousHolder: 'Chad Wolf',
+					imgPath: 'img/mayorkas4x4.png',
 				id: 15,
 			},
 
@@ -168,8 +181,9 @@ constructor(props){
 				title: 'Secretary of Veterans Affairs',
 				name: 'Denis McDonough',
 				description:
-					'The Department of Veterans Affairs is responsible for administering benefit programs for veterans, their families, and their survivors.',
-				imgPath: 'img/mcdonough4x4.png',
+					'This secretary runs the Department of Veterans Affairs which provides programs benefiting veterans and members of their families.',
+				previousHolder: 'Robert Wilkie',   
+					imgPath: 'img/mcdonough4x4.png',
 				id: 16,
 			}
 		],
