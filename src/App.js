@@ -70,7 +70,7 @@ class App extends Component {
 					title: 'Attorney General',
 					name: 'Merrick Garland',
 					description:
-						"The attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
+						"This attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
 					previousHolder: 'William Barr',
 					imgPath: 'img/garland4x4.png',
 					id: 5,
