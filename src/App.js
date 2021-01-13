@@ -40,7 +40,7 @@ class App extends Component {
 					title: 'Secretary of State',
 					name: 'Antony Blinken',
 					description:
-						'The secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.',
+						'This secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.',
 					previousHolder: 'Michael Pompeo',
 					imgPath: 'img/blinken4x4.png',
 					id: 2,
@@ -50,7 +50,7 @@ class App extends Component {
 					title: 'Secretary of the Treasury',
 					name: 'Janet Yellen',
 					description:
-						'The secretary oversees the US economy and financial systems.',
+						'This secretary oversees the US economy and financial systems.',
 					previousHolder: 'Steven Mnuchin',
 					imgPath: 'img/yellen4x4.png',
 					id: 3,
@@ -60,7 +60,7 @@ class App extends Component {
 					title: 'Secretary of Defense',
 					name: 'Gen. Lloyd Austin',
 					description:
-						'The secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
+						'This secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
 					previousHolder: 'Christopher C. Miller',
 					imgPath: 'img/austin4x4.png',
 					id: 4,
@@ -80,7 +80,7 @@ class App extends Component {
 					title: 'Secretary of the Interior',
 					name: 'Deb Haaland',
 					description:
-						"The secretary is responsible for conservation and management of the nation's national resources.",
+						"This secretary is responsible for conservation and management of the nation's national resources.",
 					previousHolder: 'David Bernhardt',
 					imgPath: 'img/haaland4x4.png',
 					id: 6,
@@ -90,7 +90,7 @@ class App extends Component {
 					title: 'Secretary of Agriculture',
 					name: 'Tom Vilsack',
 					description:
-						'The secretary oversees policy regulating food production and safety, farming and rural development.  ',
+						'This secretary oversees policy regulating food production and safety, farming and rural development.  ',
 					previousHolder: 'Sonny Perdue',
 					imgPath: 'img/vilsack4x4.png',
 					id: 7,
@@ -100,7 +100,7 @@ class App extends Component {
 					title: 'Secretary of Commerce',
 					name: 'Gina Raimondo',
 					description:
-						'The secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
+						'This secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
 					previousHolder: 'Wilbur Ross',
 					imgPath: 'img/gina4x4.png',
 					id: 8,
@@ -110,7 +110,7 @@ class App extends Component {
 					title: 'Secretary of Labor',
 					name: 'Marty Walsh',
 					description:
-						'The secretary  oversees policies on wages and benefits as well as working conditions and rights.',
+						'This secretary  oversees policies on wages and benefits as well as working conditions and rights.',
 					previousHolder: 'Eugene Scalia',
 					imgPath: 'img/marty4x4.png',
 					id: 9,
@@ -130,7 +130,7 @@ class App extends Component {
 					title: 'Secretary of Housing & Urban Development',
 					name: 'Marcia Fudge',
 					description:
-						'The secretary manages federal housing and lending programs for home buyers.',
+						'This secretary manages federal housing and lending programs for home buyers.',
 					previousHolder: 'Ben Carson',
 					imgPath: 'img/fudge4x4.png',
 					id: 11,
@@ -140,7 +140,7 @@ class App extends Component {
 					title: 'Secretary of Transportation',
 					name: 'Pete Buttigieg',
 					description:
-						'The secretary is in charge of policy related to transportation safety and efficiency.',
+						'This secretary is in charge of policy related to transportation safety and efficiency.',
 					previousHolder: 'Elaine Chao',
 					imgPath: 'img/buttigieg4x4.png',
 					id: 12,
@@ -169,7 +169,7 @@ class App extends Component {
 					title: 'Secretary of Homeland Security',
 					name: 'Alejandro Mayorkas',
 					description:
-						'The secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
+						'This secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
 					previousHolder: 'Chad Wolf',
 					imgPath: 'img/mayorkas4x4.png',
 					id: 15,
