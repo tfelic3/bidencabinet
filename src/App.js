@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 import Cabinet from './components/Cabinet';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import CabinetView from './components/CabinetView';
@@ -6,269 +6,237 @@ import HeaderView from './components/HeaderView';
 import FooterView from './components/FooterView';
 import CarouselView from './components/CarouselView';
 
-
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 
 class App extends Component {
-constructor(props){
-	super(props)
-	
-	this.state = {
-		
-		candidates : [
-			{
-				title: 'President',
-				name: 'Joe Biden',
-				description:'The president heads the US government. He is also commander-in-chief of the armed forces.',
-				previousHolder: 'Donald Trump',
-				imgPath: 'img/biden4x4.png',					
-				id: 0
-			},
+	constructor(props) {
+		super(props);
 
-			{
-				title: 'Vice President',
-				name: 'Kamala Harris',
-				description: 'The vice president is second in command. The vice president assumes the role of president if the president is unable to serve.',
-				previousHolder: 'Mike Pence',
-				imgPath: 'img/harris4x4.png',
-				id: 1,
-			},
+		this.state = {
+			candidates: [
+				{
+					title: 'President',
+					name: 'Joe Biden',
+					description:
+						'The president heads the US government. He is also commander-in-chief of the armed forces.',
+					previousHolder: 'Donald Trump',
+					imgPath: 'img/biden4x4.png',
+					id: 0,
+				},
 
-			{
-				title: 'Secretary of State',
-				name: 'Antony Blinken',
-				description:
-					"The secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.",
+				{
+					title: 'Vice President',
+					name: 'Kamala Harris',
+					description:
+						'The vice president is second in command. The vice president assumes the role of president if the president is unable to serve.',
+					previousHolder: 'Mike Pence',
+					imgPath: 'img/harris4x4.png',
+					id: 1,
+				},
+
+				{
+					title: 'Secretary of State',
+					name: 'Antony Blinken',
+					description:
+						'The secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.',
 					previousHolder: 'Michael Pompeo',
 					imgPath: 'img/blinken4x4.png',
-				id: 2,
-			},
+					id: 2,
+				},
 
-			{
-				title: 'Secretary of the Treasury',
-				name: 'Janet Yellen',
-				description:"The secretary oversees the US economy and financial systems.",
-				previousHolder: 'Steven Mnuchin',
+				{
+					title: 'Secretary of the Treasury',
+					name: 'Janet Yellen',
+					description:
+						'The secretary oversees the US economy and financial systems.',
+					previousHolder: 'Steven Mnuchin',
 					imgPath: 'img/yellen4x4.png',
-				id: 3
-				,
-			},
+					id: 3,
+				},
 
-			{
-				title: 'Secretary of Defense',
-				name: 'Gen. Lloyd Austin',
-				description:
-					'The secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
+				{
+					title: 'Secretary of Defense',
+					name: 'Gen. Lloyd Austin',
+					description:
+						'The secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
 					previousHolder: 'Christopher C. Miller',
 					imgPath: 'img/austin4x4.png',
-				id: 4,
-			},
+					id: 4,
+				},
 
-			{
-				title: 'Attorney General',
-				name: 'Merrick Garland',
-				description:
-					"The attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
-				previousHolder: 'William Barr',
+				{
+					title: 'Attorney General',
+					name: 'Merrick Garland',
+					description:
+						"The attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
+					previousHolder: 'William Barr',
 					imgPath: 'img/garland4x4.png',
-				id: 5,
-			},
+					id: 5,
+				},
 
-			{
-				title: 'Secretary of the Interior',
-				name: 'Deb Haaland',
-				description:
-					"The secretary is responsible for conservation and management of the nation's national resources.",
-				previousHolder: 'David Bernhardt',
+				{
+					title: 'Secretary of the Interior',
+					name: 'Deb Haaland',
+					description:
+						"The secretary is responsible for conservation and management of the nation's national resources.",
+					previousHolder: 'David Bernhardt',
 					imgPath: 'img/haaland4x4.png',
-				id: 6,
-			},
+					id: 6,
+				},
 
-			{
-				title: 'Secretary of Agriculture',
-				name: 'Tom Vilsack',
-				description:
-					'The secretary oversees policy regulating food production and safety, farming and rural development.  ',
-				previousHolder: 'Sonny Perdue',
+				{
+					title: 'Secretary of Agriculture',
+					name: 'Tom Vilsack',
+					description:
+						'The secretary oversees policy regulating food production and safety, farming and rural development.  ',
+					previousHolder: 'Sonny Perdue',
 					imgPath: 'img/vilsack4x4.png',
-				id: 7,
-			},
+					id: 7,
+				},
 
-			{
-				title: 'Secretary of Commerce',
-				name: 'Gina Raimondo',
-				description:
-					'The secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
-					previousHolder:'Wilbur Ross',
+				{
+					title: 'Secretary of Commerce',
+					name: 'Gina Raimondo',
+					description:
+						'The secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
+					previousHolder: 'Wilbur Ross',
 					imgPath: 'img/gina4x4.png',
-				id: 8,
-			},
+					id: 8,
+				},
 
-			{
-				title: 'Secretary of Labor',
-				name: 'Marty Walsh',
-				description:
-					'The secretary  oversees policies on wages and benefits as well as working conditions and rights.',
+				{
+					title: 'Secretary of Labor',
+					name: 'Marty Walsh',
+					description:
+						'The secretary  oversees policies on wages and benefits as well as working conditions and rights.',
 					previousHolder: 'Eugene Scalia',
-				imgPath: 'img/marty4x4.png',
-				id: 9,
-			},
+					imgPath: 'img/marty4x4.png',
+					id: 9,
+				},
 
-			{
-				title: 'Secretary of Health & Human Services',
-				name: 'Xavier Becerra',
-				description:
-					"This secretary is in charge of health policy and oversees, Medicaid, Medicare and the Centers for Disease Control and Prevention.",
-				previousHolder: 'Alex Azar',
+				{
+					title: 'Secretary of Health & Human Services',
+					name: 'Xavier Becerra',
+					description:
+						'This secretary is in charge of health policy and oversees, Medicaid, Medicare and the Centers for Disease Control and Prevention.',
+					previousHolder: 'Alex Azar',
 					imgPath: 'img/becerra4x4.png',
-				id: 10,
-			},
+					id: 10,
+				},
 
-			{
-				title: 'Secretary of Housing & Urban Development',
-				name: 'Marcia Fudge',
-				description:
-					"The secretary manages federal housing and lending programs for home buyers.",
-				previousHolder: 'Ben Carson',
+				{
+					title: 'Secretary of Housing & Urban Development',
+					name: 'Marcia Fudge',
+					description:
+						'The secretary manages federal housing and lending programs for home buyers.',
+					previousHolder: 'Ben Carson',
 					imgPath: 'img/fudge4x4.png',
-				id: 11,
-			},
+					id: 11,
+				},
 
-			{
-				title: 'Secretary of Transportation',
-				name: 'Pete Buttigieg',
-				description:
-					"The secretary is in charge of policy related to transportation safety and efficiency.",
-				previousHolder: 'Elaine Chao',
+				{
+					title: 'Secretary of Transportation',
+					name: 'Pete Buttigieg',
+					description:
+						'The secretary is in charge of policy related to transportation safety and efficiency.',
+					previousHolder: 'Elaine Chao',
 					imgPath: 'img/buttigieg4x4.png',
-				id: 12,
-			},
+					id: 12,
+				},
 
-			{
-				title: 'Secretary of Energy',
-				name: 'Jennifer Granholm',
-				description:
-					"This secretary oversees policies and regulations related to energy, fuel sources, the environment and nuclear technology development.",
+				{
+					title: 'Secretary of Energy',
+					name: 'Jennifer Granholm',
+					description:
+						'This secretary oversees policies and regulations related to energy, fuel sources, the environment and nuclear technology development.',
 					previousHolder: 'Dan Brouillette',
 					imgPath: 'img/granholm4x4.png',
-				id: 13,
-			},
+					id: 13,
+				},
 
-			{
-				title: 'Secretary of Education',
-				name: 'Miguel Cardona',
-				description:
-					'This secretary administers the department which supports the education of children and adults in schools and colleges throughout the country.',
-	previousHolder: 'Elisabeth Prince DeVos',
+				{
+					title: 'Secretary of Education',
+					name: 'Miguel Cardona',
+					description:
+						"Oversight of federal educational programs and policy, federal student loans and students rights falls under this secretary's purview",
+					previousHolder: 'Elisabeth Prince DeVos',
 					imgPath: 'img/cardona4x4.png',
-				id: 14,
-			},
-			{
-				title: 'Secretary of Homeland Security',
-				name: 'Alejandro Mayorkas',
-				description:
-					'The secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
-				previousHolder: 'Chad Wolf',
+					id: 14,
+				},
+				{
+					title: 'Secretary of Homeland Security',
+					name: 'Alejandro Mayorkas',
+					description:
+						'The secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
+					previousHolder: 'Chad Wolf',
 					imgPath: 'img/mayorkas4x4.png',
-				id: 15,
-			},
+					id: 15,
+				},
 
-			{
-				title: 'Secretary of Veterans Affairs',
-				name: 'Denis McDonough',
-				description:
-					'This secretary runs the Department of Veterans Affairs which provides programs benefiting veterans and members of their families.',
-				previousHolder: 'Robert Wilkie',   
+				{
+					title: 'Secretary of Veterans Affairs',
+					name: 'Denis McDonough',
+					description:
+						'This secretary runs the Department of Veterans Affairs which provides programs benefiting veterans and members of their families.',
+					previousHolder: 'Robert Wilkie',
 					imgPath: 'img/mcdonough4x4.png',
-				id: 16,
-			}
-		],
-		idx: 0,
-		newArray: []
-		
-		
-
+					id: 16,
+				},
+			],
+			idx: 0,
+			newArray: [],
+		};
 	}
 
+	nextCandidate = () => {
+		this.setState({ idx: (this.state.idx + 1) % this.state.candidates.length });
+		console.log(this.state.candidates[this.state.idx]);
+	};
 
-}	
-
-nextCandidate = () => {
-	this.setState({ idx: (this.state.idx + 1) % this.state.candidates.length });
-	console.log(this.state.candidates[this.state.idx])
-
-
-}
-
-previousCandidate = () => {
-	this.setState({ idx: (this.state.idx - 1) % this.state.candidates.length });
-	console.log(this.state.candidates[this.state.idx])
-
-
-}
-
-
-
-
-
-			
+	previousCandidate = () => {
+		this.setState({ idx: (this.state.idx - 1) % this.state.candidates.length });
+		console.log(this.state.candidates[this.state.idx]);
+	};
 
 	render() {
-		document.title = 'Biden Cabinet Nominees'
-      
+		document.title = 'Biden Cabinet Nominees';
+
 		return (
 			<Router>
 				<Route exact path="/" render={() => <HeaderView />} />
-				
-				
-			
 
-					<Container className="grid" style={{ 
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/img/seal.svg'})`,
-			
+				<Container
+					className="grid"
+					style={{
+						backgroundImage: `url(${process.env.PUBLIC_URL + '/img/seal.svg'})`,
+					}}
+				>
+					<Route
+						exact
+						path="/"
+						render={() => <Cabinet candidates={this.state.candidates} />}
+					/>
 
-              }}
-					
-					>
-						<Route
-							exact
-							path="/"
-							render={() => <Cabinet candidates={this.state.candidates} />
-					
-							
-						}
-						
-						/>
-				
-
-						<Route
-							exact
-							path="/cabinet/:title"
-							render={({ match }) => (
-								<CabinetView 
-									candidates={this.state.candidates}
-									nextCandidate= {this.nextCandidate}
-									previousCandidate = {this.previousCandidate}
-									idx = {this.state.idx}
-									newArray = {this.state.newArray}
-									
-								
-
-									cabinet={this.state.candidates.find(
-										(m) => m.title === match.params.title
-									)}
-								/>
-							)}
-						/>
-
-				
-
-					</Container>
-					<Route exact path="/" render={() => <FooterView />} />
-				
+					<Route
+						exact
+						path="/cabinet/:title"
+						render={({ match }) => (
+							<CabinetView
+								candidates={this.state.candidates}
+								nextCandidate={this.nextCandidate}
+								previousCandidate={this.previousCandidate}
+								idx={this.state.idx}
+								newArray={this.state.newArray}
+								cabinet={this.state.candidates.find(
+									(m) => m.title === match.params.title
+								)}
+							/>
+						)}
+					/>
+				</Container>
+				<Route exact path="/" render={() => <FooterView />} />
 			</Router>
 		);
 	}
