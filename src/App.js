@@ -160,7 +160,7 @@ class App extends Component {
 					title: 'Secretary of Education',
 					name: 'Miguel Cardona',
 					description:
-						"Oversight of federal educational programs and policy, federal student loans and students rights falls under this secretary's purview",
+						"Oversight of federal educational programs and policy, federal student loans and students rights falls under this secretary's purview.",
 					previousHolder: 'Elisabeth Prince DeVos',
 					imgPath: 'img/cardona4x4.png',
 					id: 14,
