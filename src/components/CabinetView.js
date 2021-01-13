@@ -29,7 +29,7 @@ export class CabinetView extends Component {
           <h5></h5>
 
           <p>{this.props.cabinet.description}</p>
-          <p><b>Previous position holder: </b> {this.props.cabinet.previousHolder}</p>
+         
 
 
 

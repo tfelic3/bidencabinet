@@ -41,7 +41,7 @@ constructor(props){
 				title: 'Secretary of State',
 				name: 'Antony Blinken',
 				description:
-					'The secretary of state serves as the president’s top foreign policy adviser. Among duties, the secretary conducts negotiations related to foreign affairs and issues passports to American citizens.',
+					"The secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.",
 					previousHolder: 'Michael Pompeo',
 					imgPath: 'img/blinken4x4.png',
 				id: 2,
@@ -50,8 +50,7 @@ constructor(props){
 			{
 				title: 'Secretary of the Treasury',
 				name: 'Janet Yellen',
-				description:
-					'The secretary of treasury manages the country’s economic and fiscal policy. Duties of the department include enforcing tax and tariff law and producing currency.',
+				description:"The secretary oversees the US economy and financial systems.",
 				previousHolder: 'Steven Mnuchin',
 					imgPath: 'img/yellen4x4.png',
 				id: 3
@@ -62,7 +61,7 @@ constructor(props){
 				title: 'Secretary of Defense',
 				name: 'Gen. Lloyd Austin',
 				description:
-					'The secretary of defense leads the Department of Defense which creates policy and oversees the US military. The department’s headquarters is at the Pentagon.',
+					'The secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
 					previousHolder: 'Christopher C. Miller',
 					imgPath: 'img/austin4x4.png',
 				id: 4,
@@ -72,7 +71,7 @@ constructor(props){
 				title: 'Attorney General',
 				name: 'Merrick Garland',
 				description:
-					'The attorney general oversees the Department of Justice (DOJ). The attorney general represents the country in legal matters and enforces the country’s laws.',
+					"The attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
 				previousHolder: 'William Barr',
 					imgPath: 'img/garland4x4.png',
 				id: 5,
@@ -82,7 +81,7 @@ constructor(props){
 				title: 'Secretary of the Interior',
 				name: 'Deb Haaland',
 				description:
-					'This secretary leads the department which protects the country’s natural resources and provides federal assistance to US territories and Native American and Alaskan tribes.',
+					"The secretary is responsible for conservation and management of the nation's national resources.",
 				previousHolder: 'David Bernhardt',
 					imgPath: 'img/haaland4x4.png',
 				id: 6,
@@ -92,7 +91,7 @@ constructor(props){
 				title: 'Secretary of Agriculture',
 				name: 'Tom Vilsack',
 				description:
-					'The secretary leads the department responsible for creating and implementing the country’s agriculture, farming and food policy.',
+					'The secretary oversees policy regulating food production and safety, farming and rural development.  ',
 				previousHolder: 'Sonny Perdue',
 					imgPath: 'img/vilsack4x4.png',
 				id: 7,
@@ -102,7 +101,7 @@ constructor(props){
 				title: 'Secretary of Commerce',
 				name: 'Gina Raimondo',
 				description:
-					'This secretary leads the department which fosters economic development and technological innovation. The department helps the US economy grow.',
+					'The secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
 					previousHolder:'Wilbur Ross',
 					imgPath: 'img/gina4x4.png',
 				id: 8,
@@ -112,7 +111,7 @@ constructor(props){
 				title: 'Secretary of Labor',
 				name: 'Marty Walsh',
 				description:
-					'The secretary of labor leads the department which oversees federal programs protecting US workers, job seekers and retirees.',
+					'The secretary  oversees policies on wages and benefits as well as working conditions and rights.',
 					previousHolder: 'Eugene Scalia',
 				imgPath: 'img/marty4x4.png',
 				id: 9,
@@ -122,7 +121,7 @@ constructor(props){
 				title: 'Secretary of Health & Human Services',
 				name: 'Xavier Becerra',
 				description:
-					'This secretary runs the department that protects the health of Americans by providing efficient human services. The department also oversees the National Institutes of Health, the Food and Drug Administration, and the Centers for Disease Control.',
+					"This secretary is in charge of health policy and oversees, Medicaid, Medicare and the Centers for Disease Control and Prevention.",
 				previousHolder: 'Alex Azar',
 					imgPath: 'img/becerra4x4.png',
 				id: 10,
@@ -132,7 +131,7 @@ constructor(props){
 				title: 'Secretary of Housing & Urban Development',
 				name: 'Marcia Fudge',
 				description:
-					'This secretary oversees the department which creates policies that address the country’s housing needs and enforces fair housing laws.  ',
+					"The secretary manages federal housing and lending programs for home buyers.",
 				previousHolder: 'Ben Carson',
 					imgPath: 'img/fudge4x4.png',
 				id: 11,
@@ -142,7 +141,7 @@ constructor(props){
 				title: 'Secretary of Transportation',
 				name: 'Pete Buttigieg',
 				description:
-					'The secretary of transportation supervises the department which plans and implements the nation’s transportation system. The department also sets safety regulations for all major modes of transportation.',
+					"The secretary is in charge of policy related to transportation safety and efficiency.",
 				previousHolder: 'Elaine Chao',
 					imgPath: 'img/buttigieg4x4.png',
 				id: 12,
@@ -152,8 +151,8 @@ constructor(props){
 				title: 'Secretary of Energy',
 				name: 'Jennifer Granholm',
 				description:
-					'The secretary oversees the department which manages the country’s nuclear infrastructure and supervises its energy policy.',
-			previousHolder: 'Dan Brouillette',
+					"This secretary oversees policies and regulations related to energy, fuel sources, the environment and nuclear technology development.",
+					previousHolder: 'Dan Brouillette',
 					imgPath: 'img/granholm4x4.png',
 				id: 13,
 			},
