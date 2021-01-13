@@ -120,7 +120,7 @@ class App extends Component {
 					title: 'Secretary of Health & Human Services',
 					name: 'Xavier Becerra',
 					description:
-						'This secretary is in charge of health policy and oversees, Medicaid, Medicare and the Centers for Disease Control and Prevention.',
+						'This secretary is in charge of health policy and oversees Medicaid, Medicare and the Centers for Disease Control and Prevention.',
 					previousHolder: 'Alex Azar',
 					imgPath: 'img/becerra4x4.png',
 					id: 10,
