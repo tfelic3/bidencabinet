@@ -16,14 +16,19 @@ image{
   max-width: 100%;
   height: auto;
 }
-/* unvisited link */
+
+a{
+  color: rgb(187, 152, 9);
+  text-decoration: underline;
+}
 a:link {
-  color: red;
+  color: rgb(187, 152, 9);
+  text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: rgb(187, 152, 9)
 }
 
 /* mouse over link */
@@ -33,7 +38,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color:rgb(187, 152, 9)
 }
 
 .boss{
