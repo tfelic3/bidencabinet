@@ -9,12 +9,11 @@ export class FooterView extends Component {
 					<a
 						href="https://buildbackbetter.gov/the-transition/"
 						target="_blank"
-						rel="noreferrer"
-					>
-						The Transition{' '}
-					</a>{' '}
-					and{' '}
-					<a
+						rel="noreferrer">
+						The Transition
+					</a>
+                    {' '}   and  {' '}
+ 					<a
 						href="https://www.whitehouse.gov/about-the-white-house/the-executive-branch/"
 						target="_blank"
 						rel="noreferrer"
