@@ -4,14 +4,19 @@ import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import './CabinetCard.css';
 
-import HeaderView from './HeaderView'
+
+
 
 export class CabinetCard extends Component {
+
+
+
+
 	render() {
 		
 		return (
 	
-			
+		
      
 			<Card className="box" style={{
 				
@@ -29,8 +34,11 @@ export class CabinetCard extends Component {
 
                 						
               }} >{this.props.pick.title}</Card.Title>
+			  <p style={{fontSize: '3em', color: 'rgb(187, 152, 9)'}}>{this.props.pick.isConfirmed}</p>
+			
                     
  <Link to={`/cabinet/${this.props.pick.title}`}>
+	 
 					<Button variant="outline-secondary">More Information</Button>
                     </Link>
 					
