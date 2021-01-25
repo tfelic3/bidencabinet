@@ -13,7 +13,7 @@
 }
 
 image{
-  max-width: 2em;
+  max-width: 5em;
   height: auto;
 }
 
@@ -98,12 +98,12 @@ footer {
 @media(max-width: 950px){
   .container{
     flex-direction: column;
-    background-color: black;
+    background-color: white;
     background-position: -9999px -9999px
 
   } 
 image{
-  max-width: 30%;
+  max-width: 20%;
   height: auto;
 }
 
@@ -113,7 +113,8 @@ text-align: center;
   }
 
   .card{
-    width: 400px;
+    width: 300px;
+    height: auto;
    
   }
 
@@ -129,6 +130,12 @@ text-align: center;
   .container {
     background-color: white;
   }
+
+  image{
+    max-width: 20%;
+    height: auto;
+  
+  }
 }
 
 
@@ -142,15 +149,15 @@ text-align: center;
     font-size: 2em;
   }
   .card{
-  
-    height: 50px;
-    padding: 0em;
+    width: 310px;
+    height: 450px;
    
   }
 
   image{
-    max-width: 20%;
+    max-width: 10%;
     height: auto;
+  
   }
   
 }

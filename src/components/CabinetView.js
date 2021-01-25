@@ -26,9 +26,10 @@ export class CabinetView extends Component {
 
           <h2>{this.props.cabinet.title}</h2>
           <h4>{this.props.cabinet.name}</h4>
-          <h5></h5>
+         
 
           <p>{this.props.cabinet.description}</p>
+          <p>Confirmation status: {this.props.cabinet.isConfirmed}</p> 
          
 
 
@@ -58,6 +59,7 @@ export class CabinetView extends Component {
 
          
           <Link to={`/cabinet/${nextCandidate.title}`}>
+            
             <Button
              
               variant="outline-dark"
