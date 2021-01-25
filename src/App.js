@@ -22,7 +22,7 @@ class App extends Component {
 					description:
 						'The president heads the US government. He is also commander-in-chief of the armed forces.',
 					previousHolder: 'Donald Trump',
-					isConfirmed: '✓',
+					isConfirmed: 'Elected',
 					imgPath: 'img/biden4x4.png',
 					id: 0,
 				},
@@ -33,7 +33,7 @@ class App extends Component {
 					description:
 						'The vice president is second in command. The vice president assumes the role of president if the president is unable to serve.',
 					previousHolder: 'Mike Pence',
-					isConfirmed: '✓',
+					isConfirmed: 'Elected',
 					imgPath: 'img/harris4x4.png',
 					id: 1,
 				},
@@ -44,7 +44,7 @@ class App extends Component {
 					description:
 						'This secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.',
 					previousHolder: 'Michael Pompeo',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/blinken4x4.png',
 					id: 2,
 				},
@@ -55,7 +55,7 @@ class App extends Component {
 					description:
 						'This secretary oversees the US economy and financial systems.',
 					previousHolder: 'Steven Mnuchin',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/yellen4x4.png',
 					id: 3,
 				},
@@ -66,7 +66,7 @@ class App extends Component {
 					description:
 						'This secretary oversees the military and serves as a primary adviser to the president on defense policies for the nation.',
 					previousHolder: 'Christopher C. Miller',
-					isConfirmed: '✓',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/austin4x4.png',
 					id: 4,
 				},
@@ -77,7 +77,7 @@ class App extends Component {
 					description:
 						"This attorney general is the nation's chief law enforcement official of the federal government who oversees the Department of Justice.",
 					previousHolder: 'William Barr',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/garland4x4.png',
 					id: 5,
 				},
@@ -88,7 +88,7 @@ class App extends Component {
 					description:
 						"This secretary is responsible for conservation and management of the nation's national resources.",
 					previousHolder: 'David Bernhardt',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/haaland4x4.png',
 					id: 6,
 				},
@@ -99,7 +99,7 @@ class App extends Component {
 					description:
 						'This secretary oversees policy regulating food production and safety, farming and rural development.  ',
 					previousHolder: 'Sonny Perdue',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/vilsack4x4.png',
 					id: 7,
 				},
@@ -110,7 +110,7 @@ class App extends Component {
 					description:
 						'This secretary directs  trade policies and negotiations and manages data for, among other things, weather, fishing and the US Census.',
 					previousHolder: 'Wilbur Ross',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/gina4x4.png',
 					id: 8,
 				},
@@ -121,7 +121,7 @@ class App extends Component {
 					description:
 						'This secretary  oversees policies on wages and benefits as well as working conditions and rights.',
 					previousHolder: 'Eugene Scalia',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/marty4x4.png',
 					id: 9,
 				},
@@ -132,7 +132,7 @@ class App extends Component {
 					description:
 						'This secretary is in charge of health policy and oversees Medicaid, Medicare and the Centers for Disease Control and Prevention.',
 					previousHolder: 'Alex Azar',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/becerra4x4.png',
 					id: 10,
 				},
@@ -143,7 +143,7 @@ class App extends Component {
 					description:
 						'This secretary manages federal housing and lending programs for home buyers.',
 					previousHolder: 'Ben Carson',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/fudge4x4.png',
 					id: 11,
 				},
@@ -154,7 +154,7 @@ class App extends Component {
 					description:
 						'This secretary is in charge of policy related to transportation safety and efficiency.',
 					previousHolder: 'Elaine Chao',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/buttigieg4x4.png',
 					id: 12,
 				},
@@ -165,7 +165,7 @@ class App extends Component {
 					description:
 						'This secretary oversees policies and regulations related to energy, fuel sources, the environment and nuclear technology development.',
 					previousHolder: 'Dan Brouillette',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/granholm4x4.png',
 					id: 13,
 				},
@@ -176,7 +176,7 @@ class App extends Component {
 					description:
 						"Oversight of federal educational programs and policy, federal student loans and student rights falls under this secretary's purview.",
 					previousHolder: 'Elisabeth Prince DeVos',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/cardona4x4.png',
 					id: 14,
 				},
@@ -186,7 +186,7 @@ class App extends Component {
 					description:
 						'This secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
 					previousHolder: 'Chad Wolf',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/mayorkas4x4.png',
 					id: 15,
 				},
@@ -197,7 +197,7 @@ class App extends Component {
 					description:
 						'This secretary runs the Department of Veterans Affairs which provides programs benefiting veterans and members of their families.',
 					previousHolder: 'Robert Wilkie',
-					isConfirmed: '☐',
+					isConfirmed: 'Pending',
 					imgPath: 'img/mcdonough4x4.png',
 					id: 16,
 				},

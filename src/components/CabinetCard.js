@@ -34,7 +34,7 @@ export class CabinetCard extends Component {
 
                 						
               }} >{this.props.pick.title}</Card.Title>
-			  <p style={{fontSize: '3em', color: 'rgb(187, 152, 9)'}}>{this.props.pick.isConfirmed}</p>
+			  <p style={{fontSize: '1.2em', color: 'rgb(187, 152, 9)'}}>{this.props.pick.isConfirmed}</p>
 			
                     
  <Link to={`/cabinet/${this.props.pick.title}`}>

@@ -13,7 +13,7 @@
 }
 
 image{
-  max-width: 100%;
+  max-width: 2em;
   height: auto;
 }
 
@@ -103,7 +103,7 @@ footer {
 
   } 
 image{
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
 }
 
@@ -131,6 +131,8 @@ text-align: center;
   }
 }
 
+
+
 @media all and (max-width: 500px) {
   .container {
     background-color: white;
@@ -140,12 +142,14 @@ text-align: center;
     font-size: 2em;
   }
   .card{
-    width: 310px;
+  
+    height: 50px;
+    padding: 0em;
    
   }
 
   image{
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
   }
   
