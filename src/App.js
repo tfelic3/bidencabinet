@@ -55,7 +55,7 @@ class App extends Component {
 					description:
 						'This secretary oversees the US economy and financial systems.',
 					previousHolder: 'Steven Mnuchin',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/yellen4x4.png',
 					id: 3,
 				},
