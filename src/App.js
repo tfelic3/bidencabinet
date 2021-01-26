@@ -44,7 +44,7 @@ class App extends Component {
 					description:
 						'This secretary oversees America’s diplomatic corps, directs foreign policies for the president and serves as a top foreign affairs adviser.',
 					previousHolder: 'Michael Pompeo',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/blinken4x4.png',
 					id: 2,
 				},
