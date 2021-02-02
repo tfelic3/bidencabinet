@@ -98,6 +98,35 @@ footer {
 }
 
 @media(max-width: 1000px){
+ .electedStatus{
+   font-size: 10px;
+  }
+
+   .card{
+    width: 100px;
+    height: 350px;
+  }
+
+  .card-title{
+   justify-content: flex-start;
+   align-items:flex-start;
+}
+
+  #title{
+    font-size: 11px;
+  }
+
+#info{
+  font-size: 10px;
+}
+
+}
+
+@media(max-width: 950px){
+
+  .box{
+    margin: 2px;
+  }
   
 image{
   max-width: 100%;
@@ -120,8 +149,6 @@ text-align: center;
   }
 
   .card-title{
-  
-font-size: 10em;
    justify-content: flex-start;
    align-items:flex-start;
 }
@@ -135,9 +162,18 @@ font-size: 10em;
    height: auto;
 }
 
+.electedStatus{
+   font-size: 12px;
+
+  }
+
+#info{
+  font-size: 10px;
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+}
+
+@media all and (min-width: 500px) and (max-width: 850px) {
   .container {
     flex-direction: column;
     background-color: white;        
@@ -156,7 +192,7 @@ font-size: 10em;
 
     .electedStatus{
    font-size: 15px;
- 
+
   }
 
    #info{
