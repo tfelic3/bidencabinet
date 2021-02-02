@@ -1,19 +1,30 @@
-h1{
-    text-align: center;
-}
+
 .box {
     margin: 10px;
     text-align: center;
+    height: auto;
   
   }
+
   
-  
+.h5{
+
+   height: 90px;  
+   justify-content: flex-start;
+   align-items:flex-start;
+}
+  .electedStatus{
+   font-size: 1.2em;
+   color: rgb(187, 152, 9);
+  }
   .grid {
     min-height: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+
   
   .grid > div {
     flex-basis: calc(20% - 40px);

@@ -26,20 +26,13 @@ export class CabinetCard extends Component {
 				<Card.Img variant="top" src={this.props.pick.imgPath} />
 			
 				<Card.Body>
-					<Card.Title  style={{
-   textOverflow: "ellipsis", height: "90px",
-   
-   justifyContent: 'flex-start',
-   alignItems: 'flex-start'
-
-                						
-              }} >{this.props.pick.title}</Card.Title>
-			  <p style={{fontSize: '1.2em', color: 'rgb(187, 152, 9)'}}>{this.props.pick.isConfirmed}</p>
+					<Card.Title id="title">{this.props.pick.title}</Card.Title>
+			  <p className ="electedStatus">{this.props.pick.isConfirmed}</p>
 			
                     
  <Link to={`/cabinet/${this.props.pick.title}`}>
 	 
-					<Button variant="outline-secondary">More Information</Button>
+					<Button className="moreInfoButton" id ="info" variant="outline-secondary">More Information</Button>
                     </Link>
 					
 			

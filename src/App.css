@@ -4,8 +4,10 @@
    display: flex;
    align-items: center;
    flex-direction: column;
-   justify-content: center;  
+   justify-content: center;
+ 
  }
+
 
  
 .view{
@@ -51,7 +53,6 @@ a:active {
   background-attachment: fixed;
   background-position: center; 
 background-attachment: fixed;
-background-position: center;
 display: flex;
 background-size: 30em;
 flex-wrap: wrap;
@@ -87,6 +88,7 @@ font-family: Merriweather;
 
 h1{
   font-size: 4em;
+  text-align: center;
 }
 
 footer {
@@ -95,15 +97,10 @@ footer {
 
 }
 
-@media(max-width: 950px){
-  .container{
-    flex-direction: column;
-    background-color: white;
-    background-position: -9999px -9999px
-
-  } 
+@media(max-width: 1000px){
+  
 image{
-  max-width: 20%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -114,35 +111,78 @@ text-align: center;
 
   .card{
     width: 300px;
-    height: auto;
-   
+    height: 350px;
+  }
+
+   .electedStatus{
+   font-size: 8px;
+ 
   }
 
   .card-title{
-    word-wrap: break-word;
-    font-family: Merriweather;  
+  
+font-size: 10em;
+   justify-content: flex-start;
+   align-items:flex-start;
+}
+
+  #title{
+    font-size: 10px;
   }
 
+.moreInfoButton{
+   width: 80%;
+   height: auto;
+}
 
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
   .container {
-    background-color: white;
+    flex-direction: column;
+    background-color: white;        
+    background-position: -9999px -9999px;
+
   }
 
   image{
     max-width: 20%;
     height: auto;
-  
   }
+
+    #title{
+    font-size: 20px;
+  }
+
+    .electedStatus{
+   font-size: 15px;
+ 
+  }
+
+   #info{
+    font-size: 12px;
+  }
+
+  .card{
+    width: 300px;
+    height: 500px;
+  }
+
+    
+.card-title{
+   text-overflow: ellipsis; 
+   justify-content: flex-start;
+   align-items:flex-start;
+}
 }
 
 
 
 @media all and (max-width: 500px) {
   .container {
+    flex-direction: column;
     background-color: white;
+    background-position: -9999px -9999px;
   }
 
   h1{
@@ -152,6 +192,19 @@ text-align: center;
     width: 310px;
     height: 500px;
    
+  }
+
+     #title{
+    font-size: 20px;
+  }
+
+    .electedStatus{
+   font-size: 15px;
+ 
+  }
+
+  #info{
+    font-size: 12px;
   }
 
   image{
