@@ -1,3 +1,10 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
 
 .card-body{
   background-color: white;
@@ -234,7 +241,6 @@ text-align: center;
     background-position: -9999px -9999px;
   }
 
- 
 
   h1{
     font-size: 2em;
@@ -258,10 +264,6 @@ width: auto;
     font-size: 6px;
   }
 
-  image{
-    max-width: 10%;
-    height: auto;
-  }
 
   .moreInfoButton{
    width: 100%;
