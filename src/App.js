@@ -186,7 +186,7 @@ class App extends Component {
 					description:
 						'This secretary runs the department which ensures the safety and security of the US. The US government created the department in the aftermath of the Sept. 11 terrorist attacks. ',
 					previousHolder: 'Chad Wolf',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/mayorkas4x4.png',
 					id: 15,
 				},
