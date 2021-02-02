@@ -175,7 +175,7 @@ text-align: center;
 
 @media all and (min-width: 500px) and (max-width: 850px) {
   .container {
-    flex-direction: column;
+  
     background-color: white;        
     background-position: -9999px -9999px;
 
@@ -187,7 +187,7 @@ text-align: center;
   }
 
     #title{
-    font-size: 20px;
+    font-size: 5px;
   }
 
     .electedStatus{
@@ -200,8 +200,8 @@ text-align: center;
   }
 
   .card{
-    width: 300px;
-    height: 500px;
+    width: 600px;
+    height: auto;
   }
 
     
@@ -216,7 +216,7 @@ text-align: center;
 
 @media all and (max-width: 500px) {
   .container {
-    flex-direction: column;
+   
     background-color: white;
     background-position: -9999px -9999px;
   }
@@ -226,21 +226,21 @@ text-align: center;
   }
   .card{
     width: 310px;
-    height: 500px;
+    height: 200px;
    
   }
 
-     #title{
-    font-size: 20px;
+    #title{
+    font-size: 5px;
   }
 
     .electedStatus{
-   font-size: 15px;
+   font-size: 5px;
  
   }
 
   #info{
-    font-size: 12px;
+    font-size: 5px;
   }
 
   image{
