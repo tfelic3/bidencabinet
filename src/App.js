@@ -154,7 +154,7 @@ class App extends Component {
 					description:
 						'This secretary is in charge of policy related to transportation safety and efficiency.',
 					previousHolder: 'Elaine Chao',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/buttigieg4x4.png',
 					id: 12,
 				},
