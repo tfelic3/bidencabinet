@@ -248,5 +248,9 @@ text-align: center;
     height: auto;
   
   }
+
+   .grid > div {
+    flex-basis: calc(30% - 20px);
+  }
   
 }
