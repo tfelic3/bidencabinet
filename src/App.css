@@ -105,13 +105,10 @@ footer {
 }
 
 @media(max-width: 1000px){
- .electedStatus{
-   font-size: 10px;
-  }
 
    .card{
-    width: 100px;
-    height: 350px;
+    width: 100%;
+    height: auto;
   }
 
   .card-title{
@@ -119,17 +116,11 @@ footer {
    align-items:flex-start;
 }
 
-  #title{
-    font-size: 11px;
-  }
 
-#info{
-  font-size: 10px;
-}
 
 }
 
-@media(max-width: 950px){
+@media(max-width: 990px){
 
   .box{
     margin: 2px;
@@ -146,12 +137,12 @@ text-align: center;
   }
 
   .card{
-    width: 300px;
-    height: 350px;
+    width: 100%;
+    height: auto;
   }
 
    .electedStatus{
-   font-size: 8px;
+   font-size: 1em;
  
   }
 
@@ -161,22 +152,10 @@ text-align: center;
 }
 
   #title{
-    font-size: 10px;
+    font-size: 1em;
   }
 
-.moreInfoButton{
-   width: 100%;
-   height: auto;
-}
 
-.electedStatus{
-   font-size: 12px;
-
-  }
-
-#info{
-  font-size: 10px;
-}
 
 }
 
