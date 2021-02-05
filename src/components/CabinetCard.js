@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import './CabinetCard.css';
@@ -18,10 +18,7 @@ export class CabinetCard extends Component {
 	
 		
      
-			<Card className="box" style={{
-				
-													 
-						   }}>
+			<Card className="box">
 				
 				<Card.Img variant="top" src={this.props.pick.imgPath} />
 			

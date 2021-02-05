@@ -7,18 +7,17 @@
 
 
 .card-body{
-  background-color: white;
    display: flex;
    align-items: center;
    flex-direction: column;
-   justify-content: center;
  
  }
 
 
  
 .view{
-  background-color: white;
+  width: 100vw;
+  height: auto;
 }
 
 image{
@@ -120,7 +119,7 @@ footer {
 
 }
 
-@media(max-width: 990px){
+@media(max-width: 950px){
 
   .box{
     margin: 2px;
@@ -139,23 +138,34 @@ text-align: center;
   .card{
     width: 100%;
     height: auto;
+    display: flex;
+    
   }
 
    .electedStatus{
    font-size: 1em;
- 
+
   }
 
-  .card-title{
-   justify-content: flex-start;
-   align-items:flex-start;
-}
+
 
   #title{
     font-size: 1em;
   }
 
+.moreInfoButton{
+   width: 100%;
+   height: auto;
+}
 
+.electedStatus{
+   font-size: 12px;
+
+  }
+
+#info{
+  font-size: 10px;
+}
 
 }
 
@@ -186,16 +196,14 @@ text-align: center;
   }
 
   .card{
-   
-    height: 300px;
+   width: 100%;
+    height: auto;
   }
 
-    
-.card-title{
-   text-overflow: ellipsis; 
-   justify-content: flex-start;
-   align-items:flex-start;
-}
+    .view{
+      width: 100vw;
+      height: auto;
+    }
 
 .box{
   margin: 5px;
@@ -226,7 +234,7 @@ text-align: center;
   }
   .card{
 width: auto;
-    height: 250px;
+height: auto;
    
   }
 

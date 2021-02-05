@@ -1,7 +1,7 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import CabinetCard from "./CabinetCard";
+
 import "./CabinetView.css";
 
 
@@ -22,7 +22,7 @@ export class CabinetView extends Component {
     return (
       <div className="view">
         <React.Fragment>
-          <img className="mugshot" src={this.props.cabinet.imgPath} />
+          <img className="img-fluid" src={this.props.cabinet.imgPath} />
 
           <h2>{this.props.cabinet.title}</h2>
           <h4>{this.props.cabinet.name}</h4>

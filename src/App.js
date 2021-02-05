@@ -4,7 +4,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import CabinetView from './components/CabinetView';
 import HeaderView from './components/HeaderView';
 import FooterView from './components/FooterView';
-import CarouselView from './components/CarouselView';
+
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
