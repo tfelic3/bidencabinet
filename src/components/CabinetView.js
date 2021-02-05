@@ -29,7 +29,7 @@ export class CabinetView extends Component {
          
 
           <p>{this.props.cabinet.description}</p>
-          <p>Confirmation status: {this.props.cabinet.isConfirmed}</p> 
+          <p>Status: {this.props.cabinet.isConfirmed}</p> 
          
 
 
