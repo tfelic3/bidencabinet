@@ -197,7 +197,7 @@ class App extends Component {
 					description:
 						'This secretary runs the Department of Veterans Affairs which provides programs benefiting veterans and members of their families.',
 					previousHolder: 'Robert Wilkie',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/mcdonough4x4.png',
 					id: 16,
 				},
