@@ -1,18 +1,18 @@
 .box {
 	margin: 10px;
-	text-align: center;
+text-align: center;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 }
 
 .h5 {
-  height: 100%;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  color: blue;
-  
-
+  height: 70px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom:0;
+  padding-bottom:1em;
 }
 .electedStatus {
 	font-size: 1.2em;
