@@ -4,261 +4,225 @@
 	padding: 0;
 }
 
-
-
-.card-body{
-   display: flex;
-   align-items: center;
-   flex-direction: column;
- 
- }
-
-
- 
-.view{
-  width: 100vw;
-  height: auto;
+.card-body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-image{
-  max-width: 5em;
-  height: auto;
+.view {
+	width: 100vw;
+	height: auto;
 }
 
-a{
-  color: rgb(187, 152, 9);
-  text-decoration: underline;
+image {
+	max-width: 5em;
+	height: auto;
+}
+
+a {
+	color: rgb(187, 152, 9);
+	text-decoration: underline;
 }
 a:link {
-  color: rgb(187, 152, 9);
-  text-decoration: underline;
+	color: rgb(187, 152, 9);
+	text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-  color: rgb(187, 152, 9)
+	color: rgb(187, 152, 9);
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(187, 152, 9);
+	color: rgb(187, 152, 9);
 }
 
 /* selected link */
 a:active {
-  color:rgb(187, 152, 9)
+	color: rgb(187, 152, 9);
 }
 
-.boss{
-  text-align: center;
+.boss {
+	text-align: center;
 }
 
-.container{ 
-
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-background-attachment: fixed;
-display: flex;
-background-size: 30em;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: center;
-align-content:center;
-
+.container {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	background-size: 30em;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
 }
 
-
-
-
-
-div{
-  margin: auto;
-  width: 100%;
+div {
+	margin: auto;
+	width: 100%;
 }
 
 .btn-outline-secondary {
-  align-self:  flex-end;   
-
-
+	align-self: flex-end;
 }
 
 .box p {
-  text-align: left;
+	text-align: left;
 }
-.head{
- padding:1em;
- color: rgb(187, 152, 9);
-font-family: Merriweather; 
+.head {
+	padding: 1em;
+	color: rgb(187, 152, 9);
+	font-family: Merriweather;
 }
 
-h1{
-  font-size: 4em;
-  text-align: center;
+h1 {
+	font-size: 4em;
+	text-align: center;
 }
 
 footer {
-  text-align: center;
-  padding: -10px;
-
+	text-align: center;
+	padding: -10px;
 }
 
-@media(max-width: 1000px){
+@media (max-width: 1000px) {
+	.card {
+		width: 100%;
+		height: auto;
+	}
 
-   .card{
-    width: 100%;
-    height: auto;
-  }
-
-  .card-title{
-   justify-content: flex-start;
-   align-items:flex-start;
+	.card-title {
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
 }
 
+@media (max-width: 950px) {
+	.box {
+		margin: 2px;
+	}
 
+	image {
+		max-width: 100%;
+		height: auto;
+	}
 
-}
+	.head {
+		font-family: Merriweather;
+		text-align: center;
+	}
 
-@media(max-width: 950px){
+	.card {
+		width: 100%;
+		height: auto;
+		display: flex;
+	}
 
-  .box{
-    margin: 2px;
-  }
-  
-image{
-  max-width: 100%;
-  height: auto;
-}
+	.electedStatus {
+		font-size: 1em;
+	}
 
-  .head{
-    font-family: Merriweather; 
-text-align: center;
-  }
+	#title {
+		font-size: 1em;
+	}
 
-  .card{
-    width: 100%;
-    height: auto;
-    display: flex;
-    
-  }
+	.moreInfoButton {
+		width: 100%;
+		height: auto;
+	}
 
-   .electedStatus{
-   font-size: 1em;
+	.electedStatus {
+		font-size: 12px;
+	}
 
-  }
-
-
-
-  #title{
-    font-size: 1em;
-  }
-
-.moreInfoButton{
-   width: 100%;
-   height: auto;
-}
-
-.electedStatus{
-   font-size: 12px;
-
-  }
-
-#info{
-  font-size: 10px;
-}
-
+	#info {
+		font-size: 10px;
+	}
 }
 
 @media all and (min-width: 501px) and (max-width: 850px) {
-  .container {
-  
-    background-color: white;        
-    background-position: -9999px -9999px;
+	.container {
+		background-color: white;
+		background-position: -9999px -9999px;
+	}
 
-  }
+	image {
+		max-width: 20%;
+		height: auto;
+	}
 
-  image{
-    max-width: 20%;
-    height: auto;
-  }
+	#title {
+		font-size: 12px;
+	}
 
-    #title{
-    font-size: 12px;
-  }
+	.electedStatus {
+		font-size: 10px;
+	}
 
-    .electedStatus{
-   font-size: 10px;
+	#info {
+		font-size: 8px;
+	}
 
-  }
+	.card {
+		width: 100%;
+		height: auto;
+	}
 
-   #info{
-    font-size: 8px;
-  }
+	.view {
+		width: 100vw;
+		height: auto;
+	}
 
-  .card{
-   width: 100%;
-    height: auto;
-  }
+	.box {
+		margin: 5px;
+	}
 
-    .view{
-      width: 100vw;
-      height: auto;
-    }
+	.moreInfoButton {
+		width: 100%;
+		height: auto;
+	}
 
-.box{
-  margin: 5px;
+	.grid > div {
+		flex-basis: calc(30% - 20px);
+	}
 }
-
-  .moreInfoButton{
-   width: 100%;
-   height: auto;
-}
-
-.grid > div {
-    flex-basis: calc(30% - 20px);
-  }
-}
-
-
 
 @media all and (min-width: 100px) and (max-width: 500px) {
-  .container {
-   
-    background-color: white;
-    background-position: -9999px -9999px;
-  }
+	.container {
+		background-color: white;
+		background-position: -9999px -9999px;
+	}
 
+	h1 {
+		font-size: 2em;
+	}
+	.card {
+		width: auto;
+		height: auto;
+	}
 
-  h1{
-    font-size: 2em;
-  }
-  .card{
-width: auto;
-height: auto;
-   
-  }
+	#title {
+		font-size: 40%;
+	}
 
-    #title{
-    font-size: 40%;
-  }
+	.electedStatus {
+		font-size: 25%;
+	}
 
-    .electedStatus{
-   font-size: 10%;
- 
-  }
+	#info {
+		font-size: 25%;
+	}
 
-  #info{
-    font-size: 5%;
-  }
+	.moreInfoButton {
+		width: 100%;
+		height: auto;
+	}
 
-
-  .moreInfoButton{
-   width: 100%;
-   height: auto;
-}
-
-   .grid > div {
-    flex-basis: calc(35% - 20px);
-  }
-  
+	.grid > div {
+		flex-basis: calc(35% - 20px);
+	}
 }
