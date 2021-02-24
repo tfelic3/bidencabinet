@@ -96,8 +96,8 @@ footer {
 	}
 
 	.card-title {
-		justify-content: flex-start;
-		align-items: flex-start;
+		
+
 	}
 }
 
@@ -206,7 +206,7 @@ footer {
 	}
 
 	#title {
-		font-size: 50%;
+		font-size: 70%;
 	}
 
 	.electedStatus {

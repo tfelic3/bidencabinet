@@ -7,9 +7,12 @@
 }
 
 .h5 {
-	width: auto;
-	height: 100%;
-	overflow: hidden;
+  height: 100%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  color: blue;
+  
+
 }
 .electedStatus {
 	font-size: 1.2em;
