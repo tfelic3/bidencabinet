@@ -165,7 +165,7 @@ class App extends Component {
 					description:
 						'This secretary oversees policies and regulations related to energy, fuel sources, the environment and nuclear technology development.',
 					previousHolder: 'Dan Brouillette',
-					isConfirmed: 'Pending',
+					isConfirmed: 'Confirmed',
 					imgPath: 'img/granholm4x4.png',
 					id: 13,
 				},
